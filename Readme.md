@@ -148,6 +148,7 @@ To configure this action, edit the settings in the provided /workflows/main.yml 
         with:
           results-json: /tmp/policy_flaws.json
           output-results-sarif: veracode-results.sarif
+          scan-tpye: policy
           source-base-path-1: "^com/veracode:src/main/java/com/veracode"
           source-base-path-2: "^WEB-INF:src/main/webapp/WEB-INF"
           output-results-sarif: veracode-results.sarif
